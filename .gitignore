@@ -53,7 +53,7 @@ wp-content/cache/*
 # ignore all in themes except needed
 wp-content/themes/*
 !wp-content/themes/index.php
-!wp-content/themes/citi-theme/
+!wp-content/themes/NakodaCreek/
 
 # ignore wordpress uploads
 wp-content/uploads/*

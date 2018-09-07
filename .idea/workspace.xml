@@ -2,65 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94d800d1-c772-4be5-abc9-b0242f3fadbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-options-page/acf-options-page-update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-options-page/acf-options-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-options-page/includes/admin/admin-options-page-4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-options-page/includes/admin/admin-options-page-5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-options-page/includes/admin/admin-options-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-options-page/includes/options-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-options-page/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/archive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/codesniffer.ruleset.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/config-default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/gulpfile.babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/FoundationPress.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/ca.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/ca.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/cs_CZ.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/cs_CZ.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/da_DK.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/da_DK.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/de_DE.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/de_DE.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/de_DE_formal.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/de_DE_formal.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/es_ES.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/es_ES.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/fi.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/fi.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/fr_FR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/fr_FR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/gl_ES.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/gl_ES.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/he_IL.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/he_IL.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/hu_HU.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/hu_HU.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/is_IS.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/is_IS.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/it_IT.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/it_IT.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/ja.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/ja.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/nb_NO.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/nb_NO.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/nl_NL.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/nl_NL.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/pl.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/pl.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/pt_BR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/pt_BR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/pt_PT.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/pt_PT.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/ro.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/ro.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/ru_RU.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/ru_RU.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/sv_SE.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/sv_SE.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/tr_TR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/tr_TR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/ur.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/languages/ur.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/class-foundationpress-comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/class-foundationpress-mobile-walker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/class-foundationpress-protocol-relative-theme-assets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/class-foundationpress-top-bar-walker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/cleanup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/custom-nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/enqueue-scripts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/entry-meta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/foundation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/responsive-images.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/sticky-posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/theme-support.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/library/widget-areas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/page-templates/front.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/page-templates/kitchen-sink.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/page-templates/page-full-width.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/page-templates/page-sidebar-left.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/searchform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/images/demo/customizable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/images/demo/hero-bg-foundation-6-large.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/images/demo/hero-bg-foundation-6-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/images/demo/professional.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/images/demo/responsive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/images/demo/semantic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/js/lib/foundation-explicit-pieces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/_settings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/components/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/components/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/components/_dividers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/components/_featured-image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/components/_links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/global/_accessibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/global/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/global/_wp-admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/global/_wp-overrides.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/modules/_content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/modules/_editor-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/modules/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/modules/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/templates/_front.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/src/assets/scss/templates/_kitchen-sink.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/template-parts/content-none.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/template-parts/content-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/template-parts/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/template-parts/featured-image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/template-parts/mobile-off-canvas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/template-parts/mobile-top-bar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/NakodaCreek/woocommerce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/author-bio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/comments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-link.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-none.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/editor-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/COPYING.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/genericons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/back-compat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/custom-header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/customizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/template-tags.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/color-scheme-control.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/customize-preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/keyboard-image-navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,34 +148,51 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="4" />
           <entry key="htaccess" value="1" />
-          <entry key="php" value="1" />
+          <entry key="php" value="3" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PHP" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="YAML" value="2" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="12" />
           <entry key="yml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="YAML" value="33" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.php.new.class" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/NakodaCreek/config-default.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +202,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/NakodaCreek/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+            <state relative-caret-position="445">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/NakodaCreek/woocommerce.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding>
+                <element signature="e#6#236#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-template-functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-26">
+              <caret line="871" column="11" selection-start-line="871" selection-start-column="11" selection-end-line="871" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#0#6#0" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/NakodaCreek/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -149,6 +269,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/NakodaCreek/config.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -165,6 +286,9 @@
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/wp-content/themes/NakodaCreek/package.json" />
     </packageJsonPaths>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1163" />
@@ -255,15 +379,16 @@
       <option name="presentableId" value="Default" />
       <updated>1536349035616</updated>
       <workItem from="1536349037180" duration="623000" />
-      <workItem from="1536350945685" duration="1347000" />
+      <workItem from="1536350945685" duration="2583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2091000" />
+    <option name="totallyTimeSpent" value="3327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1163" y="-153" width="1161" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25379804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -303,13 +428,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/FoundationPress/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/NakodaCreek/config-default.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -324,13 +442,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/NakodaCreek/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/NakodaCreek/woocommerce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#6#236#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-template-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="871" column="11" selection-start-line="871" selection-start-column="11" selection-end-line="871" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#0#6#0" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/NakodaCreek/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/NakodaCreek/config.yml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        <state relative-caret-position="312">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
         </state>
       </provider>
     </entry>
