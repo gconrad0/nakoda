@@ -1,0 +1,72 @@
+# ignore all files that start with ~
+~*
+.*
+.*/
+
+# ignore OS generated files backups and logs
+ehthumbs.db
+Thumbs.db
+error_log
+log*.txt
+log*.log
+*.log
+backup*.*
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+wp-config.php
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore node/grunt dependency directories
+node_modules/
+
+# ignore all in upgrade folder
+wp-content/upgrade/*
+
+# ignore all in wordfence logs folder
+wp-content/wflogs/*
+
+# ignore all in cache folder
+wp-content/cache/*
+
+
+# ignore all in themes except needed
+wp-content/themes/*
+!wp-content/themes/index.php
+!wp-content/themes/citi-theme/
+
+# ignore wordpress uploads
+wp-content/uploads/*
+
+!wp-content/uploads/index.php
+!wp-content/uploads/GeoIP.dat
+
+
+# don't ignore specific files and folders
+!.gitignore
+!.gitkeep
+!.htaccess.local
+!.htaccess.dev
+!.htaccess.stage
+!.htaccess.live
+!.sql-dumps/
